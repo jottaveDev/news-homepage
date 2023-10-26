@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 60px;
+  position: relative;
+  .menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    li a {
+      display: inline-block;
+      padding: 10px;
+      color: var(--text);
+      transition: .3s;
+      &:hover {
+        color: hsl(5, 85%, 63%);
+      }
+    }
+  }
+}
+
+.menu-mobile {
+  display: none;
+}
+
+.menu-img {
+  cursor: pointer;
+}

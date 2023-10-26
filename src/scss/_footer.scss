@@ -1,0 +1,41 @@
+.conteudo-extra {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-block: 60px;
+}
+
+.card {
+  flex: 1 0 300px;
+  display: flex;
+  gap: 20px;
+  section {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+    gap: 10px;
+  }
+  picture img {
+    max-width: 340px;
+    max-height: 150px;
+    object-fit: cover;
+    height: 100%;
+  }
+  span {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #c3bfc6;
+  }
+  h3 a {
+    color: hsl(240, 100%, 5%);
+    transition: .3s;
+    &:hover {
+      color: hsl(5, 85%, 63%);
+    }
+  }
+  p {
+    color: var(--text);
+  }
+}

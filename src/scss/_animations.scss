@@ -1,0 +1,17 @@
+@keyframes menuIn {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 60%;
+  }
+}
+
+@keyframes menuOut {
+  from {
+    width: 60%;
+  }
+  to {
+    width: 0%;
+  }
+}
